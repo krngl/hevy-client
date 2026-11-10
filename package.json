@@ -1,0 +1,41 @@
+{
+  "name": "@krngl/hevy-client",
+  "version": "0.1.0",
+  "main": "./build/src",
+  "types": "./build/src/index.d.ts",
+  "repository": "git@github.com:krngl/hevy-client.git",
+  "author": "krngl <mail@krngl.dev>",
+  "license": "AGPL-3.0-or-later",
+  "files": [
+    "package.json",
+    "build/src/**"
+  ],
+  "dependencies": {
+    "axios": "1.20.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.2",
+    "@jest/globals": "30.5.2",
+    "@tsconfig/node24": "24.0.5",
+    "@types/jest": "30.0.0",
+    "@types/node": "26.6.6",
+    "jest": "30.5.2",
+    "rimraf": "6.1.3",
+    "ts-jest": "29.4.15",
+    "ts-node": "10.9.2",
+    "typescript": "6.0.3"
+  },
+  "scripts": {
+    "build": "rimraf build && tsc -p .",
+    "watch": "tsc -p . --watch",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "biome check"
+  },
+  "packageManager": "yarn@4.12.0",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

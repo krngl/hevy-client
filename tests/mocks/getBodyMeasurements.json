@@ -1,0 +1,18 @@
+{
+  "page": 1,
+  "page_count": 1,
+  "body_measurements": [
+    {
+      "date": "2024-08-14",
+      "weight_kg": 80.5,
+      "lean_mass_kg": 65,
+      "fat_percent": 18.5,
+      "neck_cm": null,
+      "shoulder_cm": null,
+      "chest_cm": 95,
+      "left_bicep_cm": 35,
+      "right_bicep_cm": 35.5,
+      "waist": 80
+    }
+  ]
+}

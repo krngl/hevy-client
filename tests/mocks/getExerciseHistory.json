@@ -1,0 +1,18 @@
+{
+  "exercise_history": [
+    {
+      "workout_id": "b459cba5-cd6d-463c-abd6-54f8eafcadcb",
+      "workout_title": "Morning Workout 💪",
+      "workout_start_time": "2024-01-01T12:00:00Z",
+      "workout_end_time": "2024-01-01T13:00:00Z",
+      "exercise_template_id": "D04AC939",
+      "weight_kg": 100,
+      "reps": 10,
+      "distance_meters": null,
+      "duration_seconds": null,
+      "rpe": 8.5,
+      "custom_metric": null,
+      "set_type": "normal"
+    }
+  ]
+}

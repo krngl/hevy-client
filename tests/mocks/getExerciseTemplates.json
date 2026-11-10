@@ -1,0 +1,26 @@
+{
+  "page": 1,
+  "page_count": 5,
+  "exercise_templates": [
+    {
+      "id": "05293BCA",
+      "title": "Bench Press (Barbell)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest",
+      "secondary_muscle_groups": ["triceps", "shoulders"],
+      "equipment": "barbell",
+      "is_custom": false,
+      "thumbnail_url": "https://example.com/bench.jpg"
+    },
+    {
+      "id": "D04AC939",
+      "title": "Stair Machine",
+      "type": "floors_duration",
+      "primary_muscle_group": "cardio",
+      "secondary_muscle_groups": [],
+      "equipment": "machine",
+      "is_custom": false,
+      "thumbnail_url": null
+    }
+  ]
+}
